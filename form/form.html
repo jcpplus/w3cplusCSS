@@ -1,0 +1,586 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>W3cplus CSS Framework for form</title>
+  <link rel="stylesheet" href="../reset/reset.css" />
+  <link rel="stylesheet" href="../base/base.css" />
+  <link rel="stylesheet" href="../common/common.css" />
+  <link rel="stylesheet" href="../typography/tyography.css" />
+  <link rel="stylesheet" href="../grids/grids.css" />
+  <link rel="stylesheet" href="../buttons/buttons.css" />
+  <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+<div class="container12">
+  <h1>Form Markup</h1>
+  <form action="">
+    <fieldset>
+      <legend>Legend</legend>
+      <div class="clearfix">
+        <label for="">form text<sup class="form-require">*</sup></label>
+        <input type="" class="form-text" placeholder="text input"/>
+      </div>
+      <div class="clearfix">
+        <label for="">form select<sup class="form-require">*</sup></label>
+        <select name="" id="" class="form-select">
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+        </select>
+      </div>
+      <div class="clearfix">
+        <label for="">form textarea<sup class="form-require">*</sup></label>
+        <textarea name="" id="" cols="" rows="" class="form-textarea"></textarea>
+      </div>
+      <div class="clearfix">
+        <label for="">form text<sup class="form-require">*</sup></label>
+        <input type="text" class="form-text form-small" placeholder="form small" />
+        <input type="text" class="form-text form-medium" placeholder="form medium"/>
+      </div>
+      <div class="clearfix">
+        <label for="">text and select<sup class="form-require">*</sup></label>
+        <input type="text" placeholder="text" class="form-text form-small" />
+        <select name="" id="" class="form-select form-small">
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+        </select>
+      </div>
+      <div class="clearfix">
+        <label for="">selectGroup<sup class="form-require">*</sup></label>
+        <select name="" id="" class="form-select form-small">
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+         </select>
+         <select name="" id="" class="form-select form-medium">
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+         </select>
+         <select name="" id="" class="form-select form-large">
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+         </select>
+      </div>
+      <div class="clearfix">
+        <label for="">file<sup class="form-require">*</sup></label>
+        <input type="file" class="form-file" />
+      </div>
+      <div class="clearfix">
+        <label for="">checkbox<sup class="form-require">*</sup></label>
+        <ul class="input-list">
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option1" name="optionsCheckboxes" />
+              <span>Checkbox1</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option2" name="optionsCheckboxes" />
+              <span>Checkbox2</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option3" name="optionsCheckboxes" />
+              <span>Checkbox3</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option4" name="optionsCheckboxes" />
+              <span>Checkbox4</span>
+            </label>
+          </li>
+          <li>
+            <label class="disabled">
+              <input type="checkbox" class="form-checkbox"  disabled="" value="option5" name="optionsCheckboxes" />
+              <span>Checkbox5</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <label for="">radio<sup class="form-require">*</sup></label>
+        <ul class="input-list">
+          <li>
+            <label>
+              <input type="radio" class="form-radio" value="option1" name="optionRadios" checked="checked"/>
+              <span>radio1</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" class="form-radio" value="option2" name="optionRadios"/>
+              <span>radio2</span>
+            </label>
+          </li>
+          <li>
+            <label class="disabled">
+              <input type="radio" class="form-radio" value="option3" disabled="" name="optionRadios"/>
+              <span>radio3</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <label for="">checkbox inline<sup class="form-require">*</sup></label>
+        <ul class="input-list input-list-inline">
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option1" name="optionsCheckboxes" />
+              <span>Checkbox1</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option2" name="optionsCheckboxes" />
+              <span>Checkbox2</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option3" name="optionsCheckboxes" />
+              <span>Checkbox3</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option4" name="optionsCheckboxes" />
+              <span>Checkbox4</span>
+            </label>
+          </li>
+          <li>
+            <label class="disabled">
+              <input type="checkbox" class="form-checkbox"  disabled="" value="option5" name="optionsCheckboxes" />
+              <span>Checkbox5</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <label for="">radio inline<sup class="form-require">*</sup></label>
+        <ul class="input-list input-list-inline">
+          <li>
+            <label>
+              <input type="radio" class="form-radio" value="option1" name="optionRadios" checked="checked"/>
+              <span>radio1</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" class="form-radio" value="option2" name="optionRadios"/>
+              <span>radio2</span>
+            </label>
+          </li>
+          <li>
+            <label class="disabled">
+              <input type="radio" class="form-radio" value="option3" disabled="" name="optionRadios"/>
+              <span>radio3</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <label for="">disabled input</label>
+        <input type="text" class="form-text disabled" disabled="" placeholder="disabled input" name="disabledInput"/>
+      </div>
+      <div class="clearfix">
+        <label for="">disabled textarea</label>
+        <textarea name="" id="" cols="" rows="" disabled=""  class="form-textarea disabled"></textarea>
+      </div>
+      <div class="clearfix">
+        <label for="">multiple select</label>
+        <select name="multiSelect" multiple="multiple" size="5" class="form-select form-medium form-multiple">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="clearfix error">
+        <label for="">input with error<sup class="form-require">*</sup></label>
+        <input type="text" class="form-text error form-large" name="errorInput" />
+        <span class="helpMsg">Small snippet of help text</span>
+      </div>
+      <div class="clearfix success">
+        <label for="">input with success</label>
+        <input type="text" class="form-text success" name="successInput"/>
+        <span class="helpMsg">Success!</span>
+      </div>
+      <div class="clearfix warning">
+        <label for="">input with warning</label>
+        <input type="text" class="form-text warning form-large" name="warningInput"/>
+        <span class="helpMsg">Ruh roh!</span>
+      </div>
+      <div class="clearfix">
+        <label for="">prependedInput</label>
+        <div class="input-prepend">
+          <span class="add-on">@</span>
+          <input type="text" class="form-text form-medium" name="prependedInput"/>
+        </div>
+      </div>
+      <div class="clearfix">
+        <label for="">prepended checkbox</label>
+        <div class="input-prepend">
+          <label for="" class="add-on"><input type="checkbox" class="form-checkbox" value="" name="" /></label>
+          <input type="text" class="form-text form-mini" name="prependedInput2"/>
+        </div>
+      </div>
+      <div class="clearfix">
+        <label for="">appendedInput</label>
+        <div class="input-append">
+          <input type="text" class="form-text form-mini" name="appendedInput"/>
+          <label for="" class="add-on active"><input type="checkbox" checked="checked" value="" name="" class="form-checkbox" /></label>
+        </div>
+      </div>
+      <div class="clearfix">
+        <label for="">description</label>
+        <input type="text" name="description" class="form-text form-large" />
+        <div class="description">input description content</div>
+      </div>
+      <div class="clearfix">
+        <label for="">Date range</label>
+        <div class="inline-inputs">
+          <input type="text" class="form-text form-small" value="May 1,2001"/>
+          <input type="text" class="form-text form-small" value="11:59pm"/>
+          to
+          <input type="text" class="form-text form-small" value="May 8,2001" />
+          <input type="text" class="form-text form-small" value="12:00am"/>
+          <div class="description">All times are shown as Pacific Standard Time (GMT -08:00).</div>
+        </div>        
+      </div>
+      <div class="clearfix">
+        <label for="">Date range</label>
+        <div class="inline-inputs">
+          <select name="" id="" class="form-select form-small">
+            <option value="">年</option>
+          </select>
+          <select name="" id="" class="form-select form-small">
+            <option value="">月</option>
+          </select>
+          <select name="" id="" class="form-select form-small">
+            <option value="">日</option>
+          </select>
+          to
+          <select name="" id="" class="form-select form-small">
+            <option value="">年</option>
+          </select>
+          <select name="" id="" class="form-select form-small">
+            <option value="">月</option>
+          </select>
+          <select name="" id="" class="form-select form-small">
+            <option value="">日</option>
+          </select>
+          <div class="description">all date</div>
+        </div>
+      </div>
+      <div class="clearfix actions">
+        <input type="submit" value="Save" class="btn primary" />
+        <button class="btn cancel" type="reset">Cancel</button>
+      </div>      
+    </fieldset>
+  </form>
+</div>   
+
+<div class="container12">
+  <h1>Form Stacked Markup</h1>
+  <form action="" class="form-stacked">
+    <fieldset>
+      <legend>Legend</legend>
+      <div class="clearfix">
+        <label for="">form text<sup class="form-require">*</sup></label>
+        <input type="" class="form-text" placeholder="text input"/>
+      </div>
+      <div class="clearfix">
+        <label for="">form select<sup class="form-require">*</sup></label>
+        <select name="" id="" class="form-select">
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+        </select>
+      </div>
+      <div class="clearfix">
+        <label for="">form textarea<sup class="form-require">*</sup></label>
+        <textarea name="" id="" cols="" rows="" class="form-textarea"></textarea>
+      </div>
+      <div class="clearfix">
+        <label for="">form text<sup class="form-require">*</sup></label>
+        <input type="text" class="form-text form-small" placeholder="form small" />
+        <input type="text" class="form-text form-medium" placeholder="form medium"/>
+      </div>
+      <div class="clearfix">
+        <label for="">text and select<sup class="form-require">*</sup></label>
+        <input type="text" placeholder="text" class="form-text form-small" />
+        <select name="" id="" class="form-select form-small">
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+        </select>
+      </div>
+      <div class="clearfix">
+        <label for="">selectGroup<sup class="form-require">*</sup></label>
+        <select name="" id="" class="form-select form-small">
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+         </select>
+         <select name="" id="" class="form-select form-medium">
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+         </select>
+         <select name="" id="" class="form-select form-large">
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+          <option value="">select1</option>
+         </select>
+      </div>
+      <div class="clearfix">
+        <label for="">file<sup class="form-require">*</sup></label>
+        <input type="file" class="form-file" />
+      </div>
+      <div class="clearfix">
+        <label for="">checkbox<sup class="form-require">*</sup></label>
+        <ul class="input-list">
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option1" name="optionsCheckboxes" />
+              <span>Checkbox1</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option2" name="optionsCheckboxes" />
+              <span>Checkbox2</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option3" name="optionsCheckboxes" />
+              <span>Checkbox3</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option4" name="optionsCheckboxes" />
+              <span>Checkbox4</span>
+            </label>
+          </li>
+          <li>
+            <label class="disabled">
+              <input type="checkbox" class="form-checkbox"  disabled="" value="option5" name="optionsCheckboxes" />
+              <span>Checkbox5</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <label for="">radio<sup class="form-require">*</sup></label>
+        <ul class="input-list">
+          <li>
+            <label>
+              <input type="radio" class="form-radio" value="option1" name="optionRadios" checked="checked"/>
+              <span>radio1</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" class="form-radio" value="option2" name="optionRadios"/>
+              <span>radio2</span>
+            </label>
+          </li>
+          <li>
+            <label class="disabled">
+              <input type="radio" class="form-radio" value="option3" disabled="" name="optionRadios"/>
+              <span>radio3</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <label for="">checkbox inline<sup class="form-require">*</sup></label>
+        <ul class="input-list input-list-inline">
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option1" name="optionsCheckboxes" />
+              <span>Checkbox1</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option2" name="optionsCheckboxes" />
+              <span>Checkbox2</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option3" name="optionsCheckboxes" />
+              <span>Checkbox3</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="checkbox" class="form-checkbox" value="option4" name="optionsCheckboxes" />
+              <span>Checkbox4</span>
+            </label>
+          </li>
+          <li>
+            <label class="disabled">
+              <input type="checkbox" class="form-checkbox"  disabled="" value="option5" name="optionsCheckboxes" />
+              <span>Checkbox5</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <label for="">radio inline<sup class="form-require">*</sup></label>
+        <ul class="input-list input-list-inline">
+          <li>
+            <label>
+              <input type="radio" class="form-radio" value="option1" name="optionRadios" checked="checked"/>
+              <span>radio1</span>
+            </label>
+          </li>
+          <li>
+            <label>
+              <input type="radio" class="form-radio" value="option2" name="optionRadios"/>
+              <span>radio2</span>
+            </label>
+          </li>
+          <li>
+            <label class="disabled">
+              <input type="radio" class="form-radio" value="option3" disabled="" name="optionRadios"/>
+              <span>radio3</span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="clearfix">
+        <label for="">disabled input</label>
+        <input type="text" class="form-text disabled" disabled="" placeholder="disabled input" name="disabledInput"/>
+      </div>
+      <div class="clearfix">
+        <label for="">disabled textarea</label>
+        <textarea name="" id="" cols="" rows="" disabled=""  class="form-textarea disabled"></textarea>
+      </div>
+      <div class="clearfix">
+        <label for="">multiple select</label>
+        <select name="multiSelect" multiple="multiple" size="5" class="form-select form-medium form-multiple">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+      <div class="clearfix error">
+        <label for="">input with error<sup class="form-require">*</sup></label>
+        <input type="text" class="form-text error form-large" name="errorInput" />
+        <span class="helpMsg">Small snippet of help text</span>
+      </div>
+      <div class="clearfix success">
+        <label for="">input with success</label>
+        <input type="text" class="form-text success" name="successInput"/>
+        <span class="helpMsg">Success!</span>
+      </div>
+      <div class="clearfix warning">
+        <label for="">input with warning</label>
+        <input type="text" class="form-text warning form-large" name="warningInput"/>
+        <span class="helpMsg">Ruh roh!</span>
+      </div>
+      <div class="clearfix">
+        <label for="">prependedInput</label>
+        <div class="input-prepend">
+          <span class="add-on">@</span>
+          <input type="text" class="form-text form-medium" name="prependedInput"/>
+        </div>
+      </div>
+      <div class="clearfix">
+        <label for="">prepended checkbox</label>
+        <div class="input-prepend">
+          <label for="" class="add-on"><input type="checkbox" class="form-checkbox" value="" name="" /></label>
+          <input type="text" class="form-text form-mini" name="prependedInput2"/>
+        </div>
+      </div>
+      <div class="clearfix">
+        <label for="">appendedInput</label>
+        <div class="input-append">
+          <input type="text" class="form-text form-mini" name="appendedInput"/>
+          <label for="" class="add-on active"><input type="checkbox" checked="checked" value="" name="" class="form-checkbox" /></label>
+        </div>
+      </div>
+      <div class="clearfix">
+        <label for="">description</label>
+        <input type="text" name="description" class="form-text form-large" />
+        <div class="description">input description content</div>
+      </div>
+      <div class="clearfix">
+        <label for="">Date range</label>
+        <div class="inline-inputs">
+          <input type="text" class="form-text form-small" value="May 1,2001"/>
+          <input type="text" class="form-text form-small" value="11:59pm"/>
+          to
+          <input type="text" class="form-text form-small" value="May 8,2001" />
+          <input type="text" class="form-text form-small" value="12:00am"/>
+          <div class="description">All times are shown as Pacific Standard Time (GMT -08:00).</div>
+        </div>        
+      </div>
+      <div class="clearfix">
+        <label for="">Date range</label>
+        <div class="inline-inputs">
+          <select name="" id="" class="form-select form-small">
+            <option value="">年</option>
+          </select>
+          <select name="" id="" class="form-select form-small">
+            <option value="">月</option>
+          </select>
+          <select name="" id="" class="form-select form-small">
+            <option value="">日</option>
+          </select>
+          to
+          <select name="" id="" class="form-select form-small">
+            <option value="">年</option>
+          </select>
+          <select name="" id="" class="form-select form-small">
+            <option value="">月</option>
+          </select>
+          <select name="" id="" class="form-select form-small">
+            <option value="">日</option>
+          </select>
+          <div class="description">all date</div>
+        </div>
+      </div>
+      <div class="clearfix actions">
+        <input type="submit" value="Save" class="btn primary" />
+        <button class="btn cancel" type="reset">Cancel</button>
+      </div>      
+    </fieldset>
+  </form>
+</div> 
+
+  <h1 class="container12">Form field sizes</h1>
+  <form action="" class="form-grids form-stacked">
+    <fieldset>
+      <legend>960s 12grids</legend>
+     
+    </fieldset>
+  </form>
+  
+</body>
+</html>
