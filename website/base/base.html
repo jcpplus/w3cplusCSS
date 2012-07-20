@@ -1,0 +1,280 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Test the Base style</title>
+	<link rel="stylesheet" href="../reset/reset.css" />
+	<link rel="stylesheet" href="base.css" />
+</head>
+<body>
+	<h1>Base style test</h1>
+	<a href="http://www.w3school.com.cn">W3School</a>
+	<p>abbr:The <abbr title="People's Republic of China">PRC</abbr> was founded in 1948.</p>
+	<p>HTML 5 不支持 &lt;acronym&gt; 标签。请使用 &lt;abbr&gt; 标签代替它。</p>
+	<p>address:</p>
+	<address>
+		Written by W3School.com.cn<br />
+		<a href="mailto:us@example.org">Email us</a><br />
+		Address: Box 564, Disneyland<br />
+		Phone: +12 34 56 78										
+	</address>
+	<p>HTML 5 中不支持 applet 元素。请使用 &lt;object&gt; 标签代替它。</p>
+	<div>
+		<img src="planets.gif" alt="Planets" usemap ="#planetmap" />
+		<map id="planetmap">
+		 <area shape ="rect" coords ="0,0,110,260" href ="sun.htm" alt="Sun" />
+		 <area shape ="circle" coords ="129,161,10" href ="mercur.htm" alt="Mercury" />
+		 <area shape ="circle" coords ="180,139,14" href ="venus.htm" alt="Venus" />
+		</map>
+	</div>
+	<p>article:</p>
+	<article>
+		<a href="http://www.apple.com">Safari 5 released</a><br />
+		7 Jun 2010. Just after the announcement of the new iPhone 4 at WWDC, 
+		Apple announced the release of Safari 5 for Windows and Mac......
+	</article>
+	<p>Me and my family visited The Epcot center this summer.</p>
+	<aside>
+	<h4>Epcot Center</h4>
+	The Epcot Center is a theme park in Disney World, Florida.
+	</aside>
+	<audio src="someaudio.wav">
+	您的浏览器不支持 audio 标签。
+	</audio>
+	<p>It was a <b>red</b> house with a <b>blue</b> door.</p>
+	<ul>
+		<li>Username <bdi>Bill<bdi>:80 points</li>
+		<li>Username <bdi>Steve</bdi>: 78 points</li>
+	</ul>
+	<bdo dir="rtl">Here is some text</bdo>
+	<div>
+		毛泽东说过：
+		<blockquote>帝国主义都是纸老虎 ... </blockquote>
+	</div>
+	<button type="button">Click Me!</button>
+	<canvas id="myCanvas"></canvas>
+	<script type="text/javascript">
+		var canvas=document.getElementById('myCanvas');
+		var ctx=canvas.getContext('2d');
+		ctx.fillStyle='#FF0000';
+		ctx.fillRect(0,0,80,100);
+	</script>
+	<table>
+		<caption>每月的存款</caption>
+		<tr>
+			<th>月份</th>
+			<th>存款</th>
+		</tr>
+		<tr>
+			<td>一月</td>
+			<td>1000 元</td>
+		</tr>
+	</table>
+	<em>Emphasized text</em>
+	<strong>Strong text</strong>
+	<dfn>Definition term</dfn>
+	<code>Computer code text</code>
+	<samp>Sample computer code text</samp>
+	<kbd>Keyboard text</kbd>
+	<var>Variable</var>
+	<cite>Citation</cite>
+	<table>
+		<col span="2" style="background-color:red" />
+			<tr>
+				<th>ISBN</th>
+				<th>Title</th>
+				<th>Price</th>
+			</tr>
+			<tr>
+				<td>3476896</td>
+				<td>My first HTML</td>
+				<td>$53</td>
+			</tr>
+	</table>
+	<table>
+		<colgroup span="2" style="background-color:red" />
+			<tr>
+				<th>ISBN</th>
+				<th>Title</th>
+				<th>Price</th>
+			</tr>
+			<tr>
+				<td>3476896</td>
+				<td>My first HTML</td>
+				<td>$53</td>
+			</tr>
+		</table>
+		<menu>
+		<command onclick="alert('Hello World')">
+		Click Me!</command>
+		</menu>
+		<input id="myCar" list="cars" />
+		<datalist id="cars">
+			<option value="BMW">
+			<option value="Ford">
+			<option value="Volvo">
+		</datalist>
+		<dl>
+			<dt>Coffee</dt>
+			<dd>Black hot drink</dd>
+			<dt>Milk</dt>
+			<dd>White cold drink</dd>
+		</dl>
+		<p>a dozen is <del>21</del> 12 pieces</p>
+		<details>
+		<summary>Copyright 2011.</summary>
+		<p>All pages and graphics on this web site are the property of W3School.</p>
+		</details>
+		<embed src="helloworld.swf" />
+		<form>
+			<fieldset>
+				<legend>Personalia:</legend>
+				Name: <input type="text" /><br />
+				Email: <input type="text" /><br />
+				Date of birth: <input type="text" />
+			</fieldset>
+		</form>
+		<figure>
+			<figcaption>黄浦江上的的卢浦大桥</figcaption>
+			<img src="shanghai_lupu_bridge.jpg" width="350" height="234" />
+		</figure>
+		<footer>This document was written in 2010</footer>
+		<form action="form_action.asp">
+		First name: <input type="text" name="fname" value="Mickey" /><br />
+		Last name:<input type="text" name="lname" value="Mouse" /><br />
+		<input type="submit" value="Submit" />
+		</form>
+		<h1>这是标题 1</h1>
+		<h2>这是标题 2</h2>
+		<h3>这是标题 3</h3>
+		<h4>这是标题 4</h4>
+		<h5>这是标题 5</h5>
+		<h6>这是标题 6</h6>
+		<header>
+		<h1>Welcome to my homepage</h1>
+		<form action="demo_keygen.asp" method="get">
+		Username: <input type="text" name="usr_name" />
+		Encryption: <keygen name="security" />
+		<input type="submit" />
+		</form>
+		<form>
+		<label for="male">Male</label>
+		<input type="radio" name="sex" id="male" />
+		<br />
+		<label for="female">Female</label>
+		<input type="radio" name="sex" id="female" />
+		<fieldset>
+			<legend>健康信息：</legend>
+			<label>身高：<input type="text" /></label>
+			<label>体重：<input type="text" /></label>
+		</fieldset>
+		<textarea rows="3" cols="30">
+		这里是文本域中的文本 ... ... ... ...
+		</textarea>
+		</form>
+		<p>My name is Donald Duck</p>
+		</header>
+		<hgroup>
+			<h1>Welcome to my WWF</h1>
+			<h2>For a living planet</h2>
+		</hgroup>
+		<hr />
+		<p>The <i class="taxonomy">Felis silvestris catus</i> is cute.</p>
+		<p>The term <i>prose content</i> is defined above.</p>
+		<p>There is a certain <i lang="fr">je ne sais quoi</i> in the air.</p>
+		<iframe src="/index.html"></iframe>
+		<img src="tulip.jpg" alt="上海鲜花港 - 郁金香" />
+		<ol>
+			 <li>Coffee</li>
+			 <li>Tea</li>
+		</ol>
+		<ol>
+			 <li value="8">Coffee</li>
+			 <li>Tea</li>
+		</ol>
+		<ul>
+			 <li>Coffee</li>
+			 <li>Tea</li>
+		</ul>
+		<menu>
+		<li><input type="checkbox" />Red</li>
+		<li><input type="checkbox" />blue</li>
+		</menu>
+		<meter min="0" max="20">5</meter>
+		<meter>2 out of 10</meter>
+		<meter>30%</meter>
+		<nav>
+		<a href="index.asp">Home</a>
+		<a href="html5_meter.asp">Previous</a>
+		<a href="html5_noscript.asp">Next</a>
+		</nav>
+		<object id="Slider1" width="100" height="50">
+			<param name="BorderStyle" value="1" />
+			<param name="MousePointer" value="0" />
+			<param name="Enabled" value="1" />
+			<param name="Min" value="0" />
+			<param name="Max" value="10" />
+		</object>
+		<progress>
+		<span id="objprogress">85</span>%
+		</progress>
+		<p>WWF's goal is to: 
+		<q cite="http://www.wwf.org">
+		build a future where people live in harmony with nature
+		</q> we hope they succeed.</p>
+		<ruby>
+		漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+		</ruby>
+		<ruby>
+		漢 <rt> ㄏㄢˋ </rt>
+		</ruby>
+		<section>
+			<h1>PRC</h1>
+			<p>The People's Republic of China was born in 1949...</p>
+		</section>
+		<dl>
+		 <dt>单人间</dt>
+		 <dd>399 元 <small>含早餐，不含税</small></dd>
+		 <dt>双人间</dt>
+		 <dd>599 元 <small>含早餐，不含税</small></dd>
+		</dl>
+		<p>This is a paragraph <span style="color:#00ff00;">This is a paragraph</span>This is a paragraph</p>
+		<div>
+			这段文本包含 <sub>下标</sub> 这段文本包含 <sup>上标</sup>
+		</div>
+		<details>
+		<summary>HTML 5</summary>
+		This document teaches you everything you have to learn about HTML 5.
+		</details>
+		<table>
+		<thead>
+			<tr>
+				<td>THEAD 中的文本</td>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td>TFOOT 中的文本</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td>TBODY 中的文本</td> 
+			</tr>
+		</tbody>
+	</table>
+	<p>我们在每天早上 <time>9:00</time> 开始营业。</p>
+	<p>我在 <time datetime="2008-02-14">情人节</time> 有个约会。</p>
+	<video width="320" height="240" controls="controls">
+		<source src="forrest_gump.mp4" type="video/mp4" />
+		<source src="forrest_gump.ogg" type="video/ogg" />
+		<track kind="subtitles" src="subs_chi.srt" srclang="zh" label="Chinese">
+		<track kind="subtitles" src="subs_eng.srt" srclang="en" label="English">
+	</video>
+	<ul>
+		 <li>Coffee</li>
+		 <li>Tea</li>
+	</ul>
+	<video src="movie.ogg" controls="controls">您的浏览器不支持 video 标签。</video>
+</body>
+</html>

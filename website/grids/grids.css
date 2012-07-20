@@ -1,0 +1,524 @@
+﻿/*=========================================================================
+ *	960 Grid System ~ Core CSS.
+ *	Learn more ~ http://960.gs/
+ *  Create more ~ http://grids.heroku.com/
+ *	Licensed under GPL and MIT.
+ *=========================================================================*/
+ 
+/*=========================================================================
+ *Container: width=960px;
+ *Html Markup
+ *     <div class="container12 clearfix">
+ *				<div class="grid4">4</div>
+ *				<div class="grid8">8</div>
+ *     </div>
+ *=========================================================================*/
+.container12,
+.container16,
+.container24,
+.container32 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+} 
+
+/*==========================================================================
+ *container12: 
+ *Column width= 60px 
+ *Number of columns= 12px  
+ *Gutter width= 20px  
+ *Content width=940px  
+ *Full width=960px
+ *=========================================================================*/
+.container12 .grid1,
+.container12 .grid2,
+.container12 .grid3,
+.container12 .grid4,
+.container12 .grid5,
+.container12 .grid6,
+.container12 .grid7,
+.container12 .grid8,
+.container12 .grid9,
+.container12 .grid10,
+.container12 .grid11,
+.container12 .grid12 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.container12 .grid1 {
+	width:60px;
+}
+
+.container12 .grid2 {
+	width:140px;
+}
+
+.container12 .grid3 {
+	width:220px;
+}
+
+.container12 .grid4 {
+	width:300px;
+}
+
+.container12 .grid5 {
+	width:380px;
+}
+
+.container12 .grid6 {
+	width:460px;
+}
+
+.container12 .grid7 {
+	width:540px;
+}
+
+.container12 .grid8 {
+	width:620px;
+}
+
+.container12 .grid9 {
+	width:700px;
+}
+
+.container12 .grid10 {
+	width:780px;
+}
+
+.container12 .grid11 {
+	width:860px;
+}
+
+.container12 .grid12 {
+	width:940px;
+}
+
+/*==========================================================================
+ *container16: 
+ *Column width= 40px 
+ *Number of columns= 16px  
+ *Gutter width= 20px  
+ *Content width=940px  
+ *Full width=960px
+ *=========================================================================*/
+.container16 .grid1,
+.container16 .grid2,
+.container16 .grid3,
+.container16 .grid4,
+.container16 .grid5,
+.container16 .grid6,
+.container16 .grid7,
+.container16 .grid8,
+.container16 .grid9,
+.container16 .grid10,
+.container16 .grid11,
+.container16 .grid12,
+.container16 .grid-one-third,
+.container16 .grid-two-thirds,
+.container16 .grid13,
+.container16 .grid14,
+.container16 .grid15,
+.container16 .grid16 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+} 
+.container16 .grid1 {
+	width:40px;
+}
+
+.container16 .grid2 {
+	width:100px;
+}
+
+.container16 .grid3 {
+	width:160px;
+}
+
+.container16 .grid4 {
+	width:220px;
+}
+
+.container16 .grid5 {
+	width:280px;
+}
+
+.container16 .grid-one-third {
+	width: 300px;
+}
+
+.container16 .grid6 {
+	width:340px;
+}
+
+.container16 .grid7 {
+	width:400px;
+}
+
+.container16 .grid8 {
+	width:460px;
+}
+
+.container16 .grid9 {
+	width:520px;
+}
+
+.container16 .grid10 {
+	width:580px;
+}
+
+.container16 .grid-two-thirds {
+	width: 620px;
+}
+
+.container16 .grid11 {
+	width:640px;
+}
+
+.container16 .grid12 {
+	width:700px;
+}
+
+.container16 .grid13 {
+	width:760px;
+}
+
+.container16 .grid14 {
+	width:820px;
+}
+
+.container16 .grid15 {
+	width:880px;
+}
+
+.container16 .grid16 {
+	width:940px;
+}
+
+/*==========================================================================
+ *container24: 
+ *Column width= 30px 
+ *Number of columns= 24px  
+ *Gutter width= 10px  
+ *Content width=950px  
+ *Full width=960px
+ *=========================================================================*/
+.container24 .grid1,
+.container24 .grid2,
+.container24 .grid3,
+.container24 .grid4,
+.container24 .grid5,
+.container24 .grid6,
+.container24 .grid7,
+.container24 .grid8,
+.container24 .grid9,
+.container24 .grid10,
+.container24 .grid11,
+.container24 .grid12,
+.container24 .grid13,
+.container24 .grid14,
+.container24 .grid15,
+.container24 .grid16,
+.container24 .grid17,
+.container24 .grid18,
+.container24 .grid19,
+.container24 .grid20,
+.container24 .grid21,
+.container24 .grid22,
+.container24 .grid23,
+.container24 .grid24 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.container24 .grid1 {
+	width:30px;
+}
+
+.container24 .grid2 {
+	width:70px;
+}
+
+.container24 .grid3 {
+	width:110px;
+}
+
+.container24 .grid4 {
+	width:150px;
+}
+
+.container24 .grid5 {
+	width:190px;
+}
+
+.container24 .grid6 {
+	width:230px;
+}
+
+.container24 .grid7 {
+	width:270px;
+}
+
+.container24 .grid8 {
+	width:310px;
+}
+
+.container24 .grid9 {
+	width:350px;
+}
+
+.container24 .grid10 {
+	width:390px;
+}
+
+.container24 .grid11 {
+	width:430px;
+}
+
+.container24 .grid12 {
+	width:470px;
+}
+
+.container24 .grid13 {
+	width:510px;
+}
+
+.container24 .grid14 {
+	width:550px;
+}
+
+.container24 .grid15 {
+	width:590px;
+}
+
+.container24 .grid16 {
+	width:630px;
+}
+
+.container24 .grid17 {
+	width:670px;
+}
+
+.container24 .grid18 {
+	width:710px;
+}
+
+.container24 .grid19 {
+	width:750px;
+}
+
+.container24 .grid20 {
+	width:790px;
+}
+
+.container24 .grid21 {
+	width:830px;
+}
+
+.container24 .grid22 {
+	width:870px;
+}
+
+.container24 .grid23 {
+	width:910px;
+}
+
+.container24 .grid24 {
+	width:950px;
+}
+
+/*==========================================================================
+ *container32: 
+ *Column width= 20px 
+ *Number of columns= 32px  
+ *Gutter width= 10px  
+ *Content width=950px  
+ *Full width=960px
+ *=========================================================================*/
+.container32 .grid1,
+.container32 .grid2,
+.container32 .grid3,
+.container32 .grid4,
+.container32 .grid5,
+.container32 .grid6,
+.container32 .grid7,
+.container32 .grid8,
+.container32 .grid9,
+.container32 .grid10,
+.container32 .grid11,
+.container32 .grid12,
+.container32 .grid13,
+.container32 .grid14,
+.container32 .grid15,
+.container32 .grid16,
+.container32 .grid17,
+.container32 .grid18,
+.container32 .grid19,
+.container32 .grid20,
+.container32 .grid21,
+.container32 .grid22,
+.container32 .grid23,
+.container32 .grid24,
+.container32 .grid25,
+.container32 .grid26,
+.container32 .grid27,
+.container32 .grid28,
+.container32 .grid29,
+.container32 .grid30,
+.container32 .grid31,
+.container32 .grid32,
+.container32 .grid-one-third,
+.container32 .grid-two-thirds {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.container32 .grid1 {
+	width:20px;
+}
+
+.container32 .grid2 {
+	width:50px;
+}
+
+.container32 .grid3 {
+	width:80px;
+}
+
+.container32 .grid4 {
+	width:110px;
+}
+
+.container32 .grid5 {
+	width:140px;
+}
+
+.container32 .grid6 {
+	width:170px;
+}
+
+.container32 .grid7 {
+	width:200px;
+}
+
+.container32 .grid8 {
+	width:230px;
+}
+
+.container32 .grid9 {
+	width:260px;
+}
+
+.container32 .grid10 {
+	width:290px;
+}
+
+.container32 .grid-one-third {
+	width: 310px;
+}
+
+.container32 .grid-two-thirds {
+	width: 630px;
+}
+.container32 .grid11 {
+	width:320px;
+}
+
+.container32 .grid12 {
+	width:350px;
+}
+
+.container32 .grid13 {
+	width:380px;
+}
+
+.container32 .grid14 {
+	width:410px;
+}
+
+.container32 .grid15 {
+	width:440px;
+}
+
+.container32 .grid16 {
+	width:470px;
+}
+
+.container32 .grid17 {
+	width:500px;
+}
+
+.container32 .grid18 {
+	width:530px;
+}
+
+.container32 .grid19 {
+	width:560px;
+}
+
+.container32 .grid20 {
+	width:590px;
+}
+
+.container32 .grid21 {
+	width:620px;
+}
+
+.container32 .grid22 {
+	width:650px;
+}
+
+.container32 .grid23 {
+	width:680px;
+}
+
+.container32 .grid24 {
+	width:710px;
+}
+
+.container32 .grid25 {
+	width:740px;
+}
+
+.container32 .grid26 {
+	width:770px;
+}
+
+.container32 .grid27 {
+	width:800px;
+}
+
+.container32 .grid28 {
+	width:830px;
+}
+
+.container32 .grid29 {
+	width:860px;
+}
+
+.container32 .grid30 {
+	width:890px;
+}
+
+.container32 .grid31 {
+	width:920px;
+}
+
+.container32 .grid32 {
+	width:950px;
+}
+
+
+ 
+ 
