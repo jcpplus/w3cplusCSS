@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>W3cplus Layout Template | Two Columns Layout</title>
+    <link href='http://fonts.googleapis.com/css?family=Amarante' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Amarante', cursive;
+            background: url(http://www.w3cplus.com/sites/default/files/bg_body.png) repeat;
+            text-align: center; /*IE6下让元素居中*/
+        }
+
+            /*===================================================*\
+             *                                                   *
+             *   Layout                                          *
+             *  .container宽度=.sidebar宽度+间距+.main-content宽度 *
+             *                                                   *
+            \*===================================================*/
+        /*清除浮动*/
+        .container:after,
+        .container:before {
+            content: "";
+            display: table;
+        }
+
+        .container:after {
+            clear: both;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 960px; /*页面总宽度*/
+            margin: 0 auto; /*水平居中*/
+            text-align: left; /*重置文本对齐方式*/
+            zoom: 1;
+        }
+
+        #header {
+            background: #b1b1b1;/*header全屏背景色设置*/
+            color: #fff;
+            margin-bottom: 15px; /*顶部与主内容垂直间距，可自行修改*/
+        }
+
+        .sidebar {
+            width: 220px; /*左边栏宽度，可自行修改*/
+            float: left;/*侧栏居左*/
+        }
+
+        .main-content {
+            width: 720px; /*主内容宽度*/
+            float: right;/*主内容居右*/
+        }
+
+        #footer {
+            background: #b1b1b1;/*footer全屏背景色设置*/
+            color: #fff;
+        }
+
+            /*测试样式，可自行修改*/
+        #header .container {
+            height: 75px;
+        }
+
+        .sidebar {
+            height: 350px;
+            background-color: #E7DBD5;
+            box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        .main-content {
+            background-color: #F2F2E6;
+            height: 350px;
+            box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
+        }
+
+        #footer .container {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <div class="header">
+            <h1>Header content</h1>
+
+            <p>W3cplus Layout Template &#10173; Fixed Width Layout &#10173; Two Columns Layout </p>
+        </div>
+    </div>
+</div>
+<div id="page">
+    <div class="container">
+        <div class="main-content">
+            <h2>Main Content</h2>
+        </div>
+        <div class="aside sidebar">
+            <h2>Sidebar Content</h2>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="container">
+        <h2>Footer Content</h2>
+    </div>
+</div>
+
+</body>
+</html>
