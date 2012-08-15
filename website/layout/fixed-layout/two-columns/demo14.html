@@ -47,10 +47,10 @@
             margin-bottom: 15px; /*顶部与主内容垂直间距，可自行修改*/
         }
         .main-content {
-            float: left;
+            float: right;
             width: 720px;/*主内容宽度*/
             display: inline;/*清除IE6下双边距Bug*/
-            margin-right: -100%;
+            margin-left: -960px;/*主容器总宽度*/
             margin-right: 240px;/*边栏宽度和间距*/
             position: relative;
             zoom: 1;
@@ -59,7 +59,7 @@
 
         .sidebar {
             width: 220px; /*左边栏宽度，可自行修改*/
-            float: left; /*侧栏居左*/
+            float: right; /*右浮动*/
             margin-left: -220px;/*边栏宽度*/
             display: inline;
             position: relative;
